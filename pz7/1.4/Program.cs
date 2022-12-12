@@ -39,7 +39,7 @@ void Poisk(double[,] arr,double elem)
         for (int j = 0; j < column; j++)
         {
             if (elem == arr[i,j]) 
-            {Console.WriteLine($"[{i},{j}]");
+            {Console.WriteLine($"[{i+1},{j+1}]");
             vhozhdenie = true;
             break;
             }
